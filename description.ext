@@ -1,0 +1,37 @@
+respawnOnStart = -1;
+enableDebugConsole[] = {"76561198057067491", "76561198059005962"};
+
+class CfgFunctions 
+{
+	createShortcuts = 1;
+	#include "functions\cfgWSOTFunctions.hpp"
+};
+
+class CfgSounds
+{
+	sounds[] = {}; // OFP required it filled, now it can be empty or absent depending on the game's version
+
+	class radio_1
+	{
+		name = "radio_1";						// display name
+		sound[] = { "sounds\radio_1.ogg", 1, 1 };	// file, volume, pitch, maxDistance
+	};
+
+	class radio_2
+	{
+		name = "radio_2";						// display name
+		sound[] = { "sounds\radio_2.ogg", 1, 1 };	// file, volume, pitch, maxDistance
+	};
+
+	class radio_3
+	{
+		name = "radio_3";						// display name
+		sound[] = { "sounds\radio_3.ogg", 1, 1 };	// file, volume, pitch, maxDistance
+	};
+
+	class radio_4
+	{
+		name = "radio_4";						// display name
+		sound[] = { "sounds\radio_4.ogg", 1, 1 };	// file, volume, pitch, maxDistance
+	};
+};
